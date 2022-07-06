@@ -125,16 +125,15 @@ select {
 .contribution img {
     max-width: 100%;
     border-radius: 5px;
+    text-align: left;
 }
 
 .contribution-1 {
     margin-right: 60px;
-    text-align: left;
 }
 
 .contribution-2 {
     margin-left: 60px;
-    text-align: left;
 }
 
 
