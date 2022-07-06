@@ -1,0 +1,154 @@
+body,
+html {
+    height: 100%;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.top-bg-image {
+    background-image: url("image/bg-image-fundriser.com");
+    filter: blur(5px);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.top-bg-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 5px;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+.donate-button {
+    margin-top: 5%;
+    background-color: rgb(92, 92, 241);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 0px;
+    padding: 10px;
+}
+
+input[type=number],
+select {
+    width: 100%;
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.donate-area {
+    width: 50%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+.donate-ammount {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.donate-items {
+    text-align: center;
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+#d-200 {
+
+    border: 2px solid rgb(49, 3, 255);
+    background-color: rgb(209, 191, 250);
+}
+
+
+.donate-plan-item {
+    display: flex;
+    width: 80%;
+    text-align: left;
+}
+
+.donate-plan {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 70px 10px 70px;
+}
+
+#food {
+    background-color: rgb(215, 206, 253);
+}
+
+#shelter {
+    background-color: rgb(248, 217, 217);
+
+}
+
+#education {
+    background-color: rgb(255, 242, 219);
+}
+
+input[type=text],
+select {
+    width: 80%;
+    padding: 12px 20px;
+    background-color: azure;
+    margin: 5px 0;
+    border: 0px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: rgb(107, 107, 245);
+    color: white;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border: 0px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.input-area {
+    display: flex;
+    border-radius: 5px;
+    background-color: #c1e9fc;
+    padding: 80px;
+    margin-top: 50px;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+#footer1 {
+    font-size: 20px;
+    color: rgb(132, 171, 253);
+}
+
+#footer2 {
+    font-size: 10px;
+    color: white;
+}
