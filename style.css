@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     font-size: 40px;
-    font: bold;
+    font-weight: bold;
 }
 
 
@@ -74,6 +74,7 @@ select {
 }
 
 .donate-items {
+    font-weight: bold;
     text-align: center;
     background-color: aliceblue;
     margin: 5px;
@@ -83,6 +84,7 @@ select {
 
 #d-200 {
 
+    color: rgb(0, 47, 255);
     border: 2px solid rgb(49, 3, 255);
     background-color: rgb(209, 191, 250);
 }
